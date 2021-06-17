@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/styles.css">
+    <title>Colourful Calculator- Eleni Nicolaides FrontEnd Developer</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <h1>Eleni's Elegant Enumerator</h1>
+
+        <div class="calculator">
+
+            <div class="display">
+                <div class="previous-calculation" data-previous-calculation>
+                </div>
+                <div class="current-calculation" data-current-calculation>
+                </div>
+            </div>
+
+            <div class="container-keys">
+                <div class="row">
+                    <button class="col-6 clear" data-all-clear>
+							AC
+						</button>
+                    <button class="col-3 clear" data-delete>
+							DEL
+						</button>
+                    <button class="col-3 function" data-operation>
+							÷
+						</button>
+                </div>
+                <div class="row">
+                    <button class="col-3" data-number>
+							7
+						</button>
+                    <button class="col-3" data-number>
+							8
+						</button>
+                    <button class="col-3" data-number>
+							9
+						</button>
+                    <button class="col-3 function" data-operation>
+							x
+						</button>
+                </div>
+                <div class="row">
+                    <button class="col-3" data-number>
+							4
+						</button>
+                    <button class="col-3" data-number>
+							5
+						</button>
+                    <button class="col-3" data-number>
+							6
+						</button>
+                    <button class="col-3 function" data-operation>
+							-
+						</button>
+                </div>
+                <div class="row">
+                    <button class="col-3" data-number>
+							1
+						</button>
+                    <button class="col-3" data-number>
+							2
+						</button>
+                    <button class="col-3" data-number>
+							3
+						</button>
+                    <button class="col-3 function" data-operation>
+							+
+						</button>
+                </div>
+                <div class="row">
+                    <button class="col-6" data-number>
+							0
+						</button>
+                    <button class="col-3 function" data-number>
+							.
+						</button>
+                    <button class="col-3 function" data-equals>
+							=
+						</button>
+                </div>
+            </div>
+        </div>
+        <h1>A responsive javascript calculator</h1>
+    </div>
+    <footer>
+        <a href="https://github.com/elenilearnscode/Colourful-Calculator" target="_blank" title="GitHub">Open source
+				on GitHub
+        <br /> by Eleni Nicolaides</a>
+    </footer>
+</body>
+<script src="src/index.js" defer></script>
+
+</html>

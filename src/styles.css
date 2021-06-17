@@ -1,0 +1,138 @@
+body {
+    background-color: #b8b5ff;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0 30px;
+    font-weight: 600;
+    color: #3b14a7;
+    font-size: 20px;
+}
+
+button {
+    border-radius: 4px;
+    border: 1px solid #3b14a7;
+    background-color: #a685e2;
+    color: #52057b;
+    box-shadow: 3px 3px 5px 0px #ffe3fe;
+    transition: al 150ms ease-in-out;
+}
+
+button:hover {
+    color: #58b4ae;
+    background-color: #3b14a7;
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    font-size: 15px;
+    color: #3b14a7;
+}
+
+footer a {
+    text-decoration: none;
+    color: #400082;
+    transition: all 150ms ease-in-out;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #851de0;
+}
+
+.calculator {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 5px solid #3b14a7;
+    border-radius: 20px;
+    background-color: #aa26da;
+    box-shadow: 3px 3px 5px 0px #ffe3fe;
+}
+
+.display {
+    background-color: #3b14a7;
+    border: 2px solid #02475e;
+    border-radius: 4px;
+    text-align: right;
+    padding: 2px;
+    color: skyblue;
+    min-height: 60px;
+    display: flex;
+    font-size: 0.5em;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.previous-calculation {
+    font-size: 25px;
+}
+
+.current-calculation {
+    font-size: 20px;
+}
+
+.keys {
+    margin: 20px auto;
+}
+
+.row {
+    margin: 2px auto;
+    max-width: 400px;
+}
+
+.function {
+    background-color: skyblue;
+    color: #31326f;
+}
+
+.function:hover {
+    background-color: #6ddccf;
+    color: #be0000;
+}
+
+.clear {
+    background-color: #75cac3;
+}
+
+.clear:hover {
+    background-color: #692db7;
+}
+
+@media (min-width: 600px) {
+    body {
+        background-color: #31326f;
+        font-size: 20px;
+        font-family: Times, serif;
+        color: white;
+    }
+    .calculator {
+        background-color: pink;
+        min-width: 550px;
+    }
+    .display {
+        min-width: 500px;
+    }
+    .keys {
+        min-width: 600px;
+    }
+    .function {
+        background-color: #31326f;
+        color: skyblue;
+    }
+    .display {
+        background-color: skyblue;
+    }
+    h1 {
+        color: white;
+    }
+    footer a {
+        color: pink;
+    }
+}
